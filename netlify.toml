@@ -3,14 +3,12 @@
   publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
   NPM_FLAGS = "--production=false"
 
-# Next.js Plugin
 [[plugins]]
   package = "@netlify/plugin-nextjs"
 
-# Headers for security and performance
 [[headers]]
   for = "/*"
   [headers.values]
@@ -18,7 +16,6 @@
     X-Content-Type-Options = "nosniff"
     Referrer-Policy = "strict-origin-when-cross-origin"
 
-# Cache static assets
 [[headers]]
   for = "/static/*"
   [headers.values]
