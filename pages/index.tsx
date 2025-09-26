@@ -193,14 +193,14 @@ export default function Index() {
               AI-Powered Career Coaching
             </div>
             <h1 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
-              Unlock Your Career Potential with{" "}
+            Navigate your professional journey with personalized guidance, intelligent tools, and human-centric support.
+            {" "}
               <span className="bg-gradient-to-r from-indigo-600 via-violet-600 to-fuchsia-600 bg-clip-text text-transparent">
                 Coach LeoWise
               </span>
             </h1>
             <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-              Revolutionize your job search and career growth with personalized AI guidance 
-              and expert human support. Create ATS-friendly resumes that get results.
+            Imagine a career path where every step is guided by intelligence and tailored to your unique aspirations. LeoWise, the AI Career Coach from Leadwise Foundation, makes this a reality. We merge cutting-edge AI efficiency with the irreplaceable human element of coaching to empower your success.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Button
